@@ -1,0 +1,10 @@
+.About{
+text-align: center;
+padding: auto;
+justify-content: space-evenly;
+margin: 100px;
+}
+.About-cover{
+    height: 200px;
+    width: 700px;
+}
