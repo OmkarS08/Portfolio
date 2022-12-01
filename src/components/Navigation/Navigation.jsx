@@ -14,7 +14,7 @@ export const Navigation =() =>{
     return(<div >
           <Navbar  sticky="top" bg="dark" variant="dark"  >
         <Container >
-          <Navbar.Brand className='Logo' as={Link} to="/">Logo</Navbar.Brand>
+          <Navbar.Brand className='Logo' as={Link} to="/"><img src='/images/2.png' className='Logo'/></Navbar.Brand>
           <Nav className="me-auto">
             <Nav.Link as={Link} to="/about">About</Nav.Link>
             <Nav.Link as={Link} to="/Skills">Skills</Nav.Link>
