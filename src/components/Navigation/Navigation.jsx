@@ -1,6 +1,6 @@
 /************************************************************** */
 import {Container,Nav , Navbar} from 'react-bootstrap';
-import {Link,Routes,Route} from 'react-router-dom'
+import {Link,Routes,Route,anch} from 'react-router-dom'
 import './Navigation.css'
 /************************************************************** */
 // Components
@@ -16,7 +16,7 @@ export const Navigation =() =>{
         <Container >
           <Navbar.Brand className='Logo' as={Link} to="/"><img src='/images/2.png' className='Logo'/></Navbar.Brand>
           <Nav className="me-auto">
-            <Nav.Link as={Link} to="/about">About</Nav.Link>
+            <Nav.Link as={Link}  to="/about">About</Nav.Link>
             <Nav.Link as={Link} to="/Skills">Skills</Nav.Link>
             <Nav.Link as={Link} to="/Projects">Projects</Nav.Link>
             <Nav.Link as={Link} to="/Contacts">Contacts</Nav.Link>

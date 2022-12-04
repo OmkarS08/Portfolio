@@ -17,7 +17,7 @@ export const About =() =>{
         })
     }
 
-    return(<div className="About">
+    return(<div className="About" id='about'>
     <h1>About me</h1>
     <img src='/images/cover.png' className='About-cover' alt='cover'></img>
     <p>Hello, my name is Omkar Shelke. I am currently pursuing a Masters degree at the BITS Pilani (Birla Institute of Technology) Dubai campus.
