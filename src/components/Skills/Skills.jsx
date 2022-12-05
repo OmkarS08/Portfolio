@@ -17,9 +17,9 @@ import SkillLabel from './SkillLabel/SkillLabel';
     <div className='Title'><h2>Back-End</h2></div>
     <SkillLabel label = 'NodeJS' variant ='info' percentage={70} />
     <SkillLabel label ='Express'  variant ='info' percentage={70} />
-    <SkillLabel label ='MySQL,MONGODB,FireBase'  variant ='info' percentage={70} />
-    <SkillLabel label ='REST API POSTMAN'  variant ='info' percentage={60} />
-    <SkillLabel label ='Netlify Heroku'  variant ='info' percentage={60} />
+    <SkillLabel label ='MySQL, MONGODB, FireBase'  variant ='info' percentage={70} />
+    <SkillLabel label ='REST API, POSTMAN'  variant ='info' percentage={60} />
+    <SkillLabel label ='Netlify, Heroku'  variant ='info' percentage={60} />
     </Card>
     <Card body className='Card'>
     <div className='Title'><h2>Design</h2></div>
