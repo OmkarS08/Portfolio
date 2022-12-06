@@ -6,7 +6,7 @@ const SkillLabel =(props) =>{
 
     return(
         <div>
-        <div className='skill'>
+        <div >
         <h5 className="Barlabel">{label}</h5>
         <ProgressBar variant={variant} now={percentage} label={percentage} />
         </div>

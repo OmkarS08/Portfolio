@@ -1,0 +1,24 @@
+.Card{
+    width: 18rem;
+    justify-content: space-around;
+}
+img{
+    height: 150px;
+    width: 300px;
+    border:2px solid  black;
+    border-radius: 15px;
+}
+.image-container{
+    text-align: center;
+    padding: 10px;
+}
+.tittle{
+    text-align: center;
+    background-color:black ;
+    color: white;
+    border-radius: 10px;
+
+}
+.Cardtext{
+ text-align:start;
+}
