@@ -4,7 +4,7 @@
         Name:"Clown Clothing",
         link:"https://github.com/OmkarS08/Clothing-Ecom-App.git",
         imgUrl: '/images/Ecom.png',
-        text:"Front-end: React, Hooks, Router, Frebase for database & Authentication"
+        text:"Front-end: React, Hooks, Router, Firebase for database & Authentication"
     },
     {
         key:2,

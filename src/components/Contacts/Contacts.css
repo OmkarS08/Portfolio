@@ -1,0 +1,42 @@
+.contacts-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 40px;
+    height: 400px;
+    width: auto;
+    margin-top: 50px;
+}
+.link-container{
+    width: 500px;
+    margin: 20px;
+}
+.form-container{
+    text-align: center;
+    height: auto;
+    width: 800px;
+    padding:5px;
+    margin:40px 10px;
+    color: black;
+    align-content: space-between;
+    border-left: 5px solid;
+    box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+    justify-content: space-between;
+}
+.form-container input{
+    width: 500px;
+    margin: 10px 10px;
+    border-radius: 10px;
+}
+.form-container  label{
+    margin: 20px 10px;
+    width: 150px;
+}
+.form-container textarea{
+
+}
+.form-container Button{
+
+    margin: 40px 80px;
+    width: 150px;
+}

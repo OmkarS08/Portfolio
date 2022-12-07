@@ -1,6 +1,7 @@
 .Card{
     width: 18rem;
     justify-content: space-around;
+    box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
 }
 img{
     height: 150px;
