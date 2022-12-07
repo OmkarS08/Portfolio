@@ -5,6 +5,12 @@ justify-content: space-evenly;
 margin: 100px;
 }
 .About-cover{
+    margin: 50px 50px;
     height: 200px;
-    width: 700px;
+    width: 800px;
+}
+.text-area{
+    margin: 20px 20px;
+    font-weight: 600;
+    font-size: large;
 }
