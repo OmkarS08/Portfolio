@@ -1,3 +1,6 @@
+.Skills{
+    height: 700px;
+}
 .Card{
     width: 400px;
     height: 400px;
@@ -7,6 +10,12 @@
 }
 .Title{
     text-align: center;
-    padding-bottom: 20px;
 }
-
+.Skills-title{
+text-align: center;
+padding-top: 50px;
+margin-bottom: 10px;
+}
+.jb2{
+    box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+}

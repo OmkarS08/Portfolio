@@ -3,7 +3,8 @@ import './Skill.css'
 import SkillLabel from './SkillLabel/SkillLabel';
  export const  Skills =() =>{
 
-    return(
+    return(<div className='jb2'>
+    <h2 className='Skills-title'>Skills</h2>
     <div className='Skills'>
     <Card body className='Card'>
     <div className='Title'><h2>Front-End</h2></div>
@@ -25,6 +26,7 @@ import SkillLabel from './SkillLabel/SkillLabel';
     <div className='Title'><h2>Design</h2></div>
     <SkillLabel label = 'Figma' variant ='dark' percentage={30} />
     <SkillLabel label ='Canva'  variant ='dark' percentage={60} />   
-    </Card></div>)
+    </Card></div>
+    </div>)
     
 }
