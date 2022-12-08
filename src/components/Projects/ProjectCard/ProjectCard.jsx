@@ -16,7 +16,7 @@ export const ProjectCard =(props) =>{
       <Card.Title className='tittle'>{Name}</Card.Title>
       <div className='image-container'><img src={imgUrl} /></div>
       <Card.Text className='Cardtext'>{text}</Card.Text>
-      <Button variant="dark" onClick={handleClick}>GitHub</Button>
+      <Button variant="dark" onClick={handleClick} className="project-button">GitHub</Button>
     </Card.Body>
   </Card>
     </div>)

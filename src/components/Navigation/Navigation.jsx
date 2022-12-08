@@ -1,6 +1,7 @@
 /************************************************************** */
 import {Container,Nav , Navbar} from 'react-bootstrap';
-import {Link,Routes,Route,anch} from 'react-router-dom'
+import {Routes,Route} from 'react-router-dom'
+import { Link } from 'react-scroll';
 import './Navigation.css'
 /************************************************************** */
 // Components
@@ -9,26 +10,30 @@ import { Home } from '../Home/Home';
 import { Projects } from '../Projects/Projects';
 import { Skills } from '../Skills/Skills';
 import { Contacts } from '../Contacts/Contacts';
+import {FaHome} from 'react-icons/fa'
 /************************************************************** */
 export const Navigation =() =>{
     return(<div >
-          <Navbar  sticky="top" bg="dark" variant="dark"  >
+      <Navbar  sticky="top" bg="dark" variant="dark"  >
         <Container >
-          <Navbar.Brand className='Logo' as={Link} to="/"><img src='/images/2.png' className='Logo'/></Navbar.Brand>
+          <Navbar.Brand className='Logo' as={Link} to="/"><FaHome size='2rem'/></Navbar.Brand>
           <Nav className="me-auto">
-            <Nav.Link as={Link}  to="/about">About</Nav.Link>
-            <Nav.Link as={Link} to="/Skills">Skills</Nav.Link>
-            <Nav.Link as={Link} to="/Projects">Projects</Nav.Link>
-            <Nav.Link as={Link} to="/Contacts">Contacts</Nav.Link>
+            <Link smooth spy to="about"> About </Link>
+            {/* <Nav.Link as={Link}  to="/about" className='nav-links1'>About</Nav.Link>
+            <Nav.Link as={Link} to="/Skills"  className='nav-links1'>Skills</Nav.Link>
+            <Nav.Link as={Link} to="/Projects"  className='nav-links1'>Projects</Nav.Link>
+            <Nav.Link as={Link} to="/Contacts"  className='nav-links1'>Contacts</Nav.Link> */}
           </Nav>
         </Container>
       </Navbar>
-      <Routes>
+      <section id="/">{<Home/>}</section>
+      <section id="about">{<About/>}</section>            
+      {/* <Routes>
         <Route path='/' element={<Home/>}/>
         <Route path='/about' element={<About/>}/>
         <Route path='/Skills' element={<Skills/>}/>
         <Route path='/Projects' element={<Projects/>}/>
         <Route path='/Contacts' element={<Contacts/>}/>
-      </Routes>
+      </Routes> */}
     </div>)
 }

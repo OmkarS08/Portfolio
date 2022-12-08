@@ -14,12 +14,16 @@ img{
     padding: 10px;
 }
 .tittle{
-    text-align: center;
+
     background-color:black ;
     color: white;
     border-radius: 10px;
+    height: 30px;
+    text-align: center;
 
 }
 .Cardtext{
  text-align:start;
+ font-weight: 500;
 }
+

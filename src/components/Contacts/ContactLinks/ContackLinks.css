@@ -1,0 +1,27 @@
+
+li{
+    margin: 40px 20px;
+    list-style: none;
+}
+
+button {
+    background-color: white; /* Blue background */
+    border: none; /* Remove borders */
+    color: black; /* White text */
+    cursor: pointer; /* Mouse pointer on hover */
+    border-radius: 50px;
+  }
+  
+  /* Darker background on mouse-over */
+button:hover {
+    background-color: gray;
+  }
+
+.whatsapp-button:hover{
+    background-color: white;
+}
+
+.contact-title{
+    text-align: center;
+    margin-top: 15px;
+}

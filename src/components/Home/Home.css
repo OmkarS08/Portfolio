@@ -4,10 +4,10 @@
 }
 
 .profile-photo{
-    border: 20px solid #cddc39;
+    border: 20px solid hsl(90, 1%, 72%);
     border-radius: 50%;
-    border-top-color: #ff5722;
-    border-left-color: #ff5722;
+    border-top-color: #000000;
+    border-left-color: hsl(90, 1%, 72%);
     width: 300px;
     height: 300px;
 }
