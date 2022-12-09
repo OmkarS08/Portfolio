@@ -29,8 +29,11 @@ padding-top: 60px;
  
     }
     .Card{
-        width: 65%;
-        height: 30%;
+        width: 75%;
+        height: 10%;
         margin-bottom: 10%;
     }
+   .card-title{
+    font-size: medium;
+   }
 }
