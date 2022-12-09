@@ -1,9 +1,9 @@
 .ProjectCardList{
-
+width: 100%;
 display: grid;
 grid-template-columns:repeat(3 ,1fr);
-column-gap: 10px;
-row-gap: 100px;
+column-gap: 1em;
+row-gap: 5em;
 margin-top: 100px ;
 
 }

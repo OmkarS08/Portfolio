@@ -1,21 +1,30 @@
 .About{
+height: 500px;
+width: 100%;
 margin: 100px 20px;
 text-align: center;
 padding: 20px;
 justify-content: space-evenly;
 box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
 }
-.About-cover{
-    margin: 50px 50px;
-    height: 200px;
-    width: 800px;
+.icons-container ul{
+    height: auto;
+    width: auto;
+    display: flex;
+    list-style: none;
+    padding-left: 25em;
+}
+.icons-container{
+    align-self: center;
 }
 .text-area{
+    width: auto;
+    height: auto;
     margin: 20px 20px;
     font-weight: 600;
     font-size: large;
 }
 .About-button{
-    width: 200px;
+    width: 10em;
     margin: 50px;
 }

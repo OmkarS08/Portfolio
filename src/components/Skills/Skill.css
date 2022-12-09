@@ -2,13 +2,13 @@
     height: 700px;
 }
 .Card{
-    width: 400px;
-    height: 400px;
+    width: 25%;
+    height: 25%;
     padding: auto;
     margin: auto;
     box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
 }
-.Title{
+.card-title{
     text-align: center;
 }
 .Skills-title{

@@ -1,6 +1,7 @@
 .Home{
     text-align: center;
     padding: 50px;
+    width: 100%;
 }
 
 .profile-photo{
@@ -8,11 +9,11 @@
     border-radius: 50%;
     border-top-color: #000000;
     border-left-color: hsl(90, 1%, 72%);
-    width: 300px;
-    height: 300px;
+    width: 35%;
+    height: 35%;
 }
 .typewriter  {
-    padding: 50px;
+    padding-bottom: 80px;
     font-family: monospace;
     letter-spacing: .17em;
     margin: 0 auto;
@@ -20,6 +21,7 @@
     white-space: nowrap;
     border-right: .2rem solid rgb(240, 229, 231);
     animation: typing 3.5s steps(30, end), blinking-cursor .5s step-end infinite;
+    font-size: 2em;
   }
   
   @keyframes typing {

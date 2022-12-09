@@ -3,8 +3,8 @@
     align-items: center;
     justify-content: center;
     padding: 40px 40px;
-    height: 400px;
-    width: auto;
+    height: 100%;
+    width: 100%;
     margin-top: 200px;
 }
 .link-container{
@@ -14,8 +14,8 @@
 }
 .form-container{
     text-align: center;
-    height: 400px;
-    width: 50%;
+    height: 80%;
+    width: 60%;
     padding:5px;
     margin:50px 10px;
     color: black;
@@ -25,21 +25,23 @@
     justify-content: space-between;
 }
 .form-container input{
-    width: 500px;
-    margin: 10px 10px;
+    width: 80%;
+    margin: 10px;
     border-radius: 10px;
 }
 .form-container  label{
     margin: 20px 10px;
-    width: 150px;
+    width: 10%;
 }
 .form-container textarea{
-
+ width: 80%;
+ border-radius: 10px;
+ margin-top: 10px;
 }
 .form-container Button{
 
     margin: 40px 80px;
-    width: 150px;
+    width: 15%;
 }
 
 .link-image{

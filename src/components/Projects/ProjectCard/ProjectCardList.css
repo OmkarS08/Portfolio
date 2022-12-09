@@ -1,11 +1,14 @@
-.Card{
-    width: 18rem;
+.Project-Card{
+    width: 80%;
+    padding: auto;
+    margin: auto;
     justify-content: space-around;
     box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
 }
+
 img{
-    height: 150px;
-    width: 300px;
+    height: 75%;
+    width: 75%;
     border:2px solid  black;
     border-radius: 15px;
 }
@@ -13,13 +16,14 @@ img{
     text-align: center;
     padding: 10px;
 }
-.tittle{
+.Project-card-title{
 
     background-color:black ;
     color: white;
     border-radius: 10px;
-    height: 30px;
+    height: 1.5em;
     text-align: center;
+    font-size: small;
 
 }
 .Cardtext{

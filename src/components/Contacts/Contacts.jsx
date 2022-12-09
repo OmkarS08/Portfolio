@@ -36,7 +36,6 @@ export const Contacts = () => {
       <input type="email" name="user_email" />
       <label className='msg'>Message :</label>
       <textarea name="message" rows="4" cols="60" />
-      {/* <input type="submit" value="Send" /> */}
       <Button variant='dark' type='submit' value='Send' className='send-button'>Send   <RiMailSendLine size='1.5em'/></Button>
     </form>
     </div>
