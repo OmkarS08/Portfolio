@@ -6,6 +6,8 @@
     height: 100%;
     width: 100%;
     margin-top: 200px;
+    box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+
 }
 .link-container{
     width: 30%;
@@ -39,12 +41,38 @@
  margin-top: 10px;
 }
 .form-container Button{
-
-    margin: 40px 80px;
+   margin: 40px 80px;
     width: 15%;
 }
+ 
 
 .link-image{
     width: 20px;
     height: 30px;
+}
+
+@media (max-width:700px) {
+    .contacts-container{
+        flex-direction: column;
+    }
+    .link-container{
+        width: 100%;
+        height: 100%;
+    }
+    .form-container{
+        width: 100%;
+        height: 100%;
+    }
+    .form-container input{
+        width: 80%;
+    }
+    .form-container label{
+        margin:auto;
+        width: 100%;
+    }
+    .form-container Button{
+
+         width: 50%;
+     }
+      
 }

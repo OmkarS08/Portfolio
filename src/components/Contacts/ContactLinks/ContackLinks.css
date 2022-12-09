@@ -5,7 +5,7 @@ li{
     width: 75%;
     size: 50%;
 }
-
+/*****connect to project button****/
 button {
     background-color: white; /* Blue background */
     border: none; /* Remove borders */
@@ -15,14 +15,11 @@ button {
     text-align: left;
     border-radius: 15px;
   }
-  
-  /* Darker background on mouse-over */
-button:hover {
-    background-color: gray;
-  }
+/*****connect to project button****/
 
-.whatsapp-button:hover{
+.whatsapp-button{
     background-color: white;
+    padding-left: 25%;
 }
 
 .contact-title{

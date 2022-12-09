@@ -5,7 +5,7 @@ import './Project.css'
 export const Projects = () =>{
 
 
-    return(<div >
+    return(<div className='project-start' >
     <h2 className='page-title'>Projects</h2>
     <div className='ProjectCardList'>
     {ProjectData.map((items)=>{return <ProjectCard key ={items.id}  items ={items}/> })}    

@@ -1,5 +1,7 @@
 .Skills{
-    height: 700px;
+    height: auto;
+    padding: 80px 0px;
+    display:flex;
 }
 .Card{
     width: 25%;
@@ -13,9 +15,22 @@
 }
 .Skills-title{
 text-align: center;
-padding-top: 50px;
-margin-bottom: 10px;
+height: 20%;
+padding-top: 60px;
 }
 .jb2{
     box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+}
+
+@media(max-width:700px)
+{
+    .Skills{
+        flex-direction: column;
+ 
+    }
+    .Card{
+        width: 65%;
+        height: 30%;
+        margin-bottom: 10%;
+    }
 }

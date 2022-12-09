@@ -1,12 +1,8 @@
 .nav-links1{
-  margin-left: 40px;
+  margin-left:2vh;
 }
 .Navigation
 {
   justify-content: space-between;  
   background-color: aqua;
-}
-.Logo{
-  height: 45px;
-  width: 50px;
 }

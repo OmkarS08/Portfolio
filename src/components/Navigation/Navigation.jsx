@@ -1,5 +1,5 @@
 /************************************************************** */
-import {Container,Nav , Navbar} from 'react-bootstrap';
+import {Container,Nav,NavLink , Navbar} from 'react-bootstrap';
 import {Link} from 'react-router-dom'
 import { scroller } from 'react-scroll';
 import './Navigation.css'
@@ -14,15 +14,18 @@ import {FaHome} from 'react-icons/fa'
 /************************************************************** */
 export const Navigation =() =>{
     return(<div >
-      <Navbar  sticky="top" bg="dark" variant="dark"  >
-        <Container >
-          <Navbar.Brand className='Logo' as={Link} onClick={() => scroller.scrollTo('/', {smooth: true,offset: -70, duration: 500,})} ><FaHome size='2rem'/></Navbar.Brand>
+      <Navbar collapseOnSelect expand='sm' sticky="top" bg="dark" variant="dark"  >
+      <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        <Container>
+        <Navbar.Collapse  id="basic-navbar-nav">
           <Nav className="me-auto">
-             <Nav.Link as={Link}  onClick={() => scroller.scrollTo('about', {smooth: true, offset: -70, duration: 500,})}  className='nav-links1'>About</Nav.Link>    
-            <Nav.Link as={Link} onClick={() => scroller.scrollTo('Skills', {smooth: true,offset: -70, duration: 500,})}   className='nav-links1'>Skills</Nav.Link>
-            <Nav.Link as={Link} onClick={() => scroller.scrollTo('Projects', {smooth: true,offset: -70, duration: 500,})}  className='nav-links1'>Projects</Nav.Link>
-            <Nav.Link as={Link} onClick={() => scroller.scrollTo('Contacts', {smooth: true,offset: -70, duration: 500,})}  className='nav-links1'>Contacts</Nav.Link>  
+            <NavLink as={Link} onClick={() => scroller.scrollTo('/', {smooth: true,offset: -70, duration: 500,})}   className='nav-links1'><FaHome size='2rem'/></NavLink>
+            <NavLink as={Link}  onClick={() => scroller.scrollTo('about', {smooth: true, offset: -70, duration: 500,})}  className='nav-links1'>About</NavLink>    
+            <NavLink as={Link}  onClick={() => scroller.scrollTo('Skills', {smooth: true,offset: -70, duration: 500,})}   className='nav-links1'>Skills</NavLink>
+            <NavLink as={Link}  onClick={() => scroller.scrollTo('Projects', {smooth: true,offset: -70, duration: 500,})}  className='nav-links1'>Projects</NavLink>
+            <NavLink as={Link}  onClick={() => scroller.scrollTo('Contacts', {smooth: true,offset: -70, duration: 500,})}  className='nav-links1'>Contacts</NavLink>  
           </Nav>
+         </Navbar.Collapse> 
         </Container>
       </Navbar>
       <section id="/">{<Home/>}</section>

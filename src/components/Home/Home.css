@@ -2,6 +2,8 @@
     text-align: center;
     padding: 50px;
     width: 100%;
+    box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+
 }
 
 .profile-photo{
@@ -9,8 +11,8 @@
     border-radius: 50%;
     border-top-color: #000000;
     border-left-color: hsl(90, 1%, 72%);
-    width: 35%;
-    height: 35%;
+    width: 30%;
+    height: 30%;
 }
 .typewriter  {
     padding-bottom: 80px;
