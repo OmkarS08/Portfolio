@@ -12,10 +12,10 @@ export const Contacts = () => {
     e.preventDefault();
 
     emailjs.sendForm(
-        'service_pt752r7', 
-        'template_5r9jjs6',
+        process.env.REACT_APP_SERVICE_ID, 
+        process.env.REACT_APP_TEMPLATE_ID,
          form.current, 
-         'doQ10bcPOx-9gqcWP')
+         process.env.REACT_APP_PUBLIC_ID)
       .then((result) => {
           console.log(result.text);
           alert("Message Sent");
