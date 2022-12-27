@@ -19,7 +19,7 @@ export const ContactLinks=()=>{
         return null;
     }
     const handleWhatsAppCLick=()=>{
-        window.location.replace('https://wa.me/971522767248')
+        window.location.replace('https://wa.me/<number>971522767248</number>')
 
     }
 
