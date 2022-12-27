@@ -4,7 +4,7 @@
         Name:"Clothing-Ecom-App",
         link:"https://github.com/OmkarS08/Clothing-Ecom-App.git",
         imgUrl: '/images/Ecom.png',
-        text:"Front-end: React, Hooks, Router, Firebase for database & Authentication"
+        text:"Front-end: React,Firebase"
     },
     {
         key:2,
@@ -25,7 +25,7 @@
         Name:"To-Do-List",
         link:"https://github.com/OmkarS08/React_ToDolist.git",
         imgUrl: "/images/To-do-list.png",
-        text:"Front-end :React, ReactHooks ,props"
+        text:"Front-end :React, ReactHooks"
     },
     {
         key:5,
@@ -39,7 +39,7 @@
         Name:"News-Letter-Sign-up-page",
         link:"https://github.com/OmkarS08/NewsLetter_signup_page.git",
         imgUrl:"/images/websiteImagers.png",
-        text:"Back-end :NodeJs, express ,Mailchimp for data collection,EJS"
+        text:"Back-end :NodeJs, express ,Mailchimp,EJS"
     }
     
 ];

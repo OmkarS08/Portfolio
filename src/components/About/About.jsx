@@ -28,7 +28,7 @@ export const About =() =>{
         <li><SiCss3 size='3.5em' color='blue'/></li>
         <li><SiJavascript size='3.5em' color ='#FFD600'/></li>
         <li><SiReact size='3.5em' color='#80DEEA'/></li>
-        <li><SiMongodb size='3.5em' color='gr589636een'/></li>
+        <li><SiMongodb size='3.5em' color='#4DB33D'/></li>
         <li><FaNodeJs size='3.5em' color='6cc24a'/></li>
         <li><FaWordpress size='3.5em' color= '21759b'/></li>
         </ul>
