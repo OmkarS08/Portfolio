@@ -13,8 +13,8 @@ import { Contacts } from '../Contacts/Contacts';
 import {FaHome} from 'react-icons/fa'
 /************************************************************** */
 export const Navigation =() =>{
-    return(<div >
-      <Navbar collapseOnSelect expand='sm' sticky="top" bg="dark" variant="dark"  >
+    return(<div  >
+      <Navbar className='navigation-bar' collapseOnSelect expand='sm' sticky="top" bg="dark" variant="dark"  >
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Container>
         <Navbar.Collapse  id="basic-navbar-nav">
@@ -23,7 +23,7 @@ export const Navigation =() =>{
             <NavLink as={Link}  onClick={() => scroller.scrollTo('about', {smooth: true, offset: -70, duration: 500,})}  className='nav-links1'>About</NavLink>    
             <NavLink as={Link}  onClick={() => scroller.scrollTo('Skills', {smooth: true,offset: -70, duration: 500,})}   className='nav-links1'>Skills</NavLink>
             <NavLink as={Link}  onClick={() => scroller.scrollTo('Projects', {smooth: true,offset: -70, duration: 500,})}  className='nav-links1'>Projects</NavLink>
-            <NavLink as={Link}  onClick={() => scroller.scrollTo('Contacts', {smooth: true,offset: -70, duration: 500,})}  className='nav-links1'>Contacts</NavLink>  
+            <NavLink as={Link}  onClick={() => scroller.scrollTo('Contacts', {smooth: true,offset: -70, duration: 500,})}  className='nav-links1'>Contact me</NavLink>  
           </Nav>
          </Navbar.Collapse> 
         </Container>

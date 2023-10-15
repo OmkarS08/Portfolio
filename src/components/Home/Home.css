@@ -13,6 +13,19 @@
     border-left-color: hsl(90, 1%, 72%);
     width: 30%;
     height: 30%;
+    animation-duration: 3s;
+    animation-name: slidein;
+}
+@keyframes slidein {
+  from {
+    margin-left: 50%;
+    width: 10%;
+  }
+
+  to {
+    margin-left: 0%;
+    width:30%;
+  }
 }
 .typewriter  {
     padding-bottom: 80px;
@@ -22,7 +35,7 @@
     overflow: hidden;
     white-space: nowrap;
     border-right: .2rem solid rgb(240, 229, 231);
-    animation: typing 3.5s steps(30, end), blinking-cursor .5s step-end infinite;
+    animation: typing 3.5s steps(30, end), blinking-cursor .4s step-end ;
     font-size: 2em;
   }
   
@@ -43,8 +56,9 @@
 
     }
     50% {
-      border-color: rgb(172, 166, 167);
+      border-color:rgb(172, 166, 167); 
     }
+ 
   }
 
 

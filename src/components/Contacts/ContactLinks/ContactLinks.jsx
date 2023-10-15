@@ -26,8 +26,8 @@ export const ContactLinks=()=>{
     return(<div>
     <h2 className='contact-title'>Follow me</h2>
     <ul>
-        <li><Button  variant='outline-dark' onClick={handleGitClick}><FaGithub size='2em'/> Github</Button></li>
-        <li><Button variant='outline-dark' onClick={handleLinkClick}><FaLinkedin size='2em'/> linkedin</Button></li>
+        <li><Button  variant='outline-dark' onClick={handleGitClick}><FaGithub size='2em'/> GitHub</Button></li>
+        <li><Button variant='outline-dark' onClick={handleLinkClick}><FaLinkedin size='2em'/> linkedIn</Button></li>
         <li><Button variant='outline-dark' onClick={handleInstaClick}><FaInstagram size='2em'/> Instagram</Button></li>
         <li><Button variant='outline-dark' onClick={handleWhatsAppCLick} className='whatsapp-button'><FaWhatsapp size='2em' />Whatsapp</Button></li>
     </ul>

@@ -1,8 +1,12 @@
 .nav-links1{
-  margin-left:2vh;
+  margin-left:20px;
 }
 .Navigation
 {
   justify-content: space-between;  
   background-color: aqua;
 }
+.navigation-bar{
+  animation: nav-load 500ms ease-in;
+}
+

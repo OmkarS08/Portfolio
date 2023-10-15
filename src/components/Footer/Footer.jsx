@@ -9,7 +9,7 @@ export const Footer=()=>{
     return(<div>
         <footer>
         <div className='center'>
-        <p>Made by OmkarS @{date()}</p>
+        <p>Made by OmkarS &copy;  @{date()}</p>
         </div>
         </footer>
     </div>)
